@@ -16,10 +16,7 @@ if (money >= 25000) {
 }
 
 
-
-
-
-/** Problem -03 ( Medicine Planner ) */
+/** Prrroblem -03 ( Medicine Planner ) */
 var lastDay = 11;
 for (var day = 1; day <= lastDay; day++) {
   if (day % 3 === 0) {
@@ -28,3 +25,22 @@ for (var day = 1; day <= lastDay; day++) {
     console.log(day + " - rest");
   }
 }
+
+/** Prrroblem 04 - (Delete / Store) */
+var fileName = "pdfData.jpg";
+if (
+  fileName[0] === "#" ||
+  fileName.endsWith(".pdf") ||
+  fileName.endsWith(".docx")
+) {
+  console.log("Store");
+} else {
+  console.log("Delete");
+}
+
+/** Problem 05 - ( PH Email Generator )  */
+var student = { name: "Arafat", roll: 56805, department: "cse" };
+var email =
+  student.name + student.roll + "." + student.department + "@ph.ac.bd";
+console.log(email);
+
