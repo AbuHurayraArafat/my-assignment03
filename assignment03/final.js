@@ -1,4 +1,4 @@
-/** Problem -01 ( Divide the Asset ) */
+/** Pproblem -01 ( Divide the Asset ) */
 var area = 800;
 var halfArea = area / 2;
 console.log(area);
@@ -14,8 +14,6 @@ if (money >= 25000) {
 } else {
   console.log("Chocolate");
 }
-
-
 /** Prrroblem -03 ( Medicine Planner ) */
 var lastDay = 11;
 for (var day = 1; day <= lastDay; day++) {
@@ -44,3 +42,13 @@ var email =
   student.name + student.roll + "." + student.department + "@ph.ac.bd";
 console.log(email);
 
+/** Problem 06 :  (Current Salary )  */
+var experience = 30;
+var startingSalary = 45000;
+var currentSalary = startingSalary;
+
+for (var i = 1; i <= experience; i++) {
+  currentSalary = currentSalary * 1.05;
+}
+currentSalary = currentSalary.toFixed(2);
+console.log(currentSalary);
